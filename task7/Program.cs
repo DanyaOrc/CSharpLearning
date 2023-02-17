@@ -13,7 +13,7 @@ string input = Console.ReadLine();
 if (input.Length == 3){
     int number = Convert.ToInt32(input);
     int lastDigit = number % 10;
-    Console.WriteLine("Последняя цифра: " + lastDigit);
+    Console.WriteLine($"Последняя цифра: {lastDigit}");
 }
 else{
     Console.WriteLine("Ошибка! Введите трехзначное число.");
