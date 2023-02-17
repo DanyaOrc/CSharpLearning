@@ -13,7 +13,7 @@ int secondNumber = Convert.ToInt32(Console.ReadLine());
 int sqr = secondNumber * secondNumber;
 if
     (sqr == firstNumber)
-        Console.WriteLine("Первое число является квадратом второго");
+        Console.WriteLine("Первое число является квадратом второго.");
 else
-    Console.WriteLine("Первое число не является квадратом второго");
+    Console.WriteLine("Первое число не является квадратом второго.");
 
