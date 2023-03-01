@@ -12,7 +12,7 @@ Console.WriteLine("Введите 8 чисел: ");
 for (int i = 0; i < numbers.Length; i++)
     {
         Console.Write($"Элемент {i}: ");
-        numbers[i] = int.Parse(Console.ReadLine());
+        numbers[i] = int.Parse(Console.ReadLine()!);
     }
 
 Console.WriteLine("Массив элементов:");

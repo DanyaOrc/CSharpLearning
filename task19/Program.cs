@@ -1,12 +1,15 @@
-﻿/* Задача 19. 
+﻿/* Задача 19 (1). 
+
 Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом. 
 14212 -> нет 
 12821 -> да 
-23432 -> да */ 
+23432 -> да 
+
+*/ 
  
-Console.Write("Введите число: "); 
-int num = Convert.ToInt32(Console.ReadLine()); 
-int rem, sum = 0, rev; 
+Console.Write("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int rem, sum = 0, rev;
 { 
 rev = num; 
     while (Convert.ToBoolean(num)) 
@@ -15,13 +18,13 @@ rev = num;
             num = num / 10; 
             sum = sum * 10 + rem; 
         } 
-    Console.WriteLine("Перевернутое число - это: {0} ", sum); 
+    Console.WriteLine("Перевернутое число - это: {0} ", sum);
     if (rev == sum)  
         { 
-            Console.WriteLine("Число является палиндромом"); 
+            Console.WriteLine("Число является палиндромом");
         } 
     else 
         { 
-            Console.WriteLine("Число не является палиндромом"); 
+            Console.WriteLine("Число не является палиндромом");
         } 
 };
