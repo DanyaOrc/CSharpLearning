@@ -9,10 +9,10 @@ namespace EvenNumbersRecursion
         static void Main(string[] args)
         {
             Console.Write("Введите значение M: ");
-            int m = int.Parse(Console.ReadLine());
+            int m = int.Parse(Console.ReadLine()!);
 
             Console.Write("Введите значение N: ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()!);
 
             Console.WriteLine("Четные числа между {0} и {1}:", m, n);
             PrintEvenNumbers(m, n);
